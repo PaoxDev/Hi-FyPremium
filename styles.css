@@ -1,0 +1,221 @@
+body {
+  background: linear-gradient(to bottom, rgba(10, 5, 25, 0.4) rgba(10, 5, 25, 0.8));
+  background-image: url("Welcome.png");
+  background-size: cover;  
+  background-repeat: no-repeat; 
+  background-position: center; 
+  margin: 0 auto;
+  min-height: 600px;
+  min-width: 1250px;
+
+}
+
+
+.canvas {  
+  display: flex;
+  flex-direction: row; 
+  min-width: 600px;
+  gap: 2px; 
+}
+
+
+.logo {
+  display: flex;   
+  height: 100px; 
+  width: 100px; 
+  border-radius: 50%;  
+}
+
+.title {
+  flex-direction: row;  
+  font-weight: bold; ; 
+  font-size: 35px; 
+  width: 1250px; 
+  color: #ffff; 
+ 
+}
+
+.logo, title {
+  display: flex; 
+  flex-direction: row; 
+}
+
+.info-box {
+  display: flex;  
+  flex-direction: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px; 
+ 
+}
+
+
+.paragraph { 
+  text-align: center;  
+  flex-direction: center;
+  justify-content: center;
+  padding-top: 10px;
+  line-height: 1.5;
+  font-size: 22px; 
+  font-weight: bold; 
+  color: #95f8ea; 
+  width: 600px; 
+  border: 2px solid rgb(171, 121, 245);
+  border-radius: 12px; 
+}
+
+
+
+
+.button {
+  padding-top: 8px; 
+  display: flex; 
+  flex-direction: center; 
+  justify-content: center; 
+  width: 100%
+  
+  
+}
+
+.start {
+  background: rgb(171, 121, 245);
+  border: 2px solid rgb(171, 121, 245);
+  color: #76f8eb;
+  font-weight: bold; 
+  align-items: center; 
+  flex-direction: center; 
+  justify-content: center; 
+  width: 50%;
+  padding-top: 8px;
+  padding-bottom: 8px; 
+  border-radius: 14px; 
+  
+  cursor: pointer;
+}
+
+.start:hover {
+  color: #ffc0cb;
+  transition: 0.3s; 
+  box-shadow: 2px 4px 8px 10px rgba(55, 178, 240, 0.925);
+}
+
+.start:active {
+  color: #ffc0cb;
+}
+
+.action{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: flex-end;
+  align-items: flex-start; 
+  font-weight: bold; 
+  padding-top: 30px;
+  padding-right: 30px; 
+  min-height: 200px;
+  width: 1250px; 
+  gap: 10px;    
+}
+
+.plan {
+  color: #ffff; 
+  flex-direction: row; 
+  font-size: 15px;
+  font-weight: bold; 
+}  
+
+
+
+.help {
+  color: #ffff; 
+  flex-direction: row; 
+  font-size: 15px;
+  font-weight: bold;
+   
+}
+
+.divisory {
+  color: #ffff;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: bold; 
+}
+
+.app {
+  color: #ffff;
+  flex-direction: row; 
+  font-size: 15px;
+  font-weight: bold;
+   
+}
+
+
+.client1 {
+  color: #ffff; 
+  flex-direction: row; 
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer; 
+}
+
+.client2 {
+  color: #ffff; 
+  flex-direction: row; 
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.plan:hover {
+  color: #ee82ee;
+  cursor: pointer; 
+}
+
+.plan:active {
+  color: #ffc0cb;
+    
+}
+
+.help:hover {
+  color: #ee82ee;
+   cursor: pointer; 
+}
+
+.help:active {
+  color: #ffc0cb;
+    
+}
+
+.app:hover {
+  color: #ee82ee;
+  cursor: pointer; 
+}
+
+.app:active {
+  color: #ffc0cb;
+   
+}
+
+.client1:hover {
+  color: #ee82ee;
+  cursor: pointer; 
+}
+
+.client2:active {
+  color: #ffc0cb;
+   
+}
+
+.client2:hover {
+  color: #ee82ee;
+  cursor: pointer;  
+}
+
+.client2:hover {
+  color: #ffc0cb;
+   
+}
+
+a:link {
+  text-decoration: none; 
+}
